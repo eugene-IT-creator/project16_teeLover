@@ -1,0 +1,1 @@
+Advanced project as part of Frontend Developer study. Practising JS, plugins & libraries.
