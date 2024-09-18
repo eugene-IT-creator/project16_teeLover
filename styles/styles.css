@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1320px;
+}
+
+                      /* BANNER */
+
+.arrow-prev {
+    position: absolute;
+    top: 45%;
+    left: 25px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.arrow-next {
+    position: absolute;
+    top: 45%;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.card {
+    width: 416px;
+}
+
+.carousel-item-info {
+    position: absolute;
+    top: 192px;
+    left: 120px;
+}
+
+#accordion {
+    width: 856px;
+}
+
+.ui-icon {
+    position: absolute;
+    right: 16px;
+    top: 20px;
+}
+
+
+.thanks-for-order {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .carousel-item-info {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item-info {
+        margin-top: -120px;
+    }
+    .carousel-item-title {
+        font-size: 18px;
+    }
+
+    .carousel-item-text {
+        font-size: 14px;
+        margin-top: -20px;
+        width: 200px;
+    }
+
+    .slick-btn {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-item-info {
+        margin-top: -150px;
+        margin-left: -20px;
+    }
+
+    .slick-btn {
+        margin-top: -50px;
+    }
+}
